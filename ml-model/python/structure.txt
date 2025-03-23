@@ -1,0 +1,16 @@
+BI360/
+│── models/                   # Stores trained anomaly models
+│── config.py                  # Loads environment variables from .env
+│── app.py                      # Flask API for handling requests
+│── train_anomaly_model.py       # Trains and saves anomaly detection model
+│── predict.py                   # Predicts anomalies in sales data
+│── shopify_api.py                # Fetches order & review data from Shopify API
+│── shopify_store_details.py      # Generates AI-based store insights
+│── shopify_store_metrics.py      # Computes store-level sales statistics
+│── sales_analysis.py             # Performs sales trend analysis
+│── feedback_analysis.py          # Processes customer reviews & feedback
+│── ai_feedback.py                # AI-generated feedback & suggestions
+│── status.py                     # Tracks system status
+│── requirements.txt               # Python dependencies
+│── .env                           # Stores secret API keys & environment variables
+│── README.md     
