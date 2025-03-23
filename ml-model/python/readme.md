@@ -19,6 +19,7 @@ URL: http://127.0.0.1:5000/
 
 **Checking status
 Method: GET**
+URL: http://127.0.0.1:5000/status
 {
   "data_fetching": "Completed",
   "model_training": "Completed",
