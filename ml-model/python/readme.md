@@ -9,3 +9,20 @@ BI360 is an AI-powered Business Intelligence (BI) tool that integrates with Shop
  AI-Generated Store Insights – Summarizes total sales, users, ratings, and trends.
  Customer Sentiment Analysis – Identifies positive/negative feedback trends.
  Flask API – Offers endpoints for fetching data, predictions, and system status.
+
+**Checking if API is Running
+Method: GET**
+URL: http://127.0.0.1:5000/
+{
+    "message": "BI360 API is running!"
+}
+
+**Checking status
+Method: GET**
+{
+  "data_fetching": "Completed",
+  "model_training": "Completed",
+  "prediction": "In Progress"
+}
+
+
